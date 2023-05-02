@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    float valor, f;
+    float valor, f; // float para valores decimais, int para valores inteiros 
     int n;
     scanf("%f", &valor);
     //1 casa decimal
