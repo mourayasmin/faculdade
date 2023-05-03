@@ -7,3 +7,15 @@ int main () {
   }
 return 0;
 }
+
+
+
+#include <stdio.h>
+int main () {
+  int consumo, distancia, litros, res;
+  scanf("%d %d %d", &consumo, &distancia, &litros);
+  { res = (distancia/consumo - litros);
+    printf("%d", res);
+  }
+return 0;
+}
