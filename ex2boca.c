@@ -1,13 +1,13 @@
-#include <stdio.h>  // ler o valor do salário mínimo e a qtd de kw gasta 
+#include <stdio.h>
 int main () {
-  float kw, consumo, desconto;
-  scanf("%.2f",&kw)("%.2f",&consumo)("%.2f", &desconto);
-  res = (0.57, 
+  float salario, kw, consumo, desconto, resposta;
+  scanf("%.2f %.2f", &salario, &kw);
+  { resposta = (salario*0,007, salario*0,007*kw, salario*0,007*0,9);
+   printf("Custo por kw: %.2f", salario*0,007);
+   printf("Custo do consumo: %.2f", salario*0,007*kw);
+   printf("Custo com desconto: %.2f", salario*0,007*0,9);
+          }
   
-    
   
-  
-  
-  
-  return0;
+  return 0;
 }
