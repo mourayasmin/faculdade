@@ -1,13 +1,29 @@
 #include <stdio.h>
 int main () {
-  float salario, kw, consumo, desconto, resposta;
+  float salario, kw, r, rr, rrr;
   scanf("%.2f %.2f", &salario, &kw);
-  { resposta = (salario*0,007, salario*0,007*kw, salario*0,007*0,9);
-   printf("Custo por kw: %.2f", salario*0,007);
-   printf("Custo do consumo: %.2f", salario*0,007*kw);
-   printf("Custo com desconto: %.2f", salario*0,007*0,9);
-          }
-  
-  
+   r = (salario*0,007);
+   rr = (salario*0,007*kw);
+   rrr = (salario*0,007*kw*0,9);    
+   printf("Custo por kw: R$%.2f\n", r);
+   printf("Custo do consumo: R$%.2f\n", rr);
+   printf("Custo com desconto: R$%.2f\n", rrr);
+   
+  return 0;
+}
+----------------------------------------------------------------------------------
+
+
+#include <stdio.h>
+int main () {
+  float salario, kw, r, rr, rrr;
+  scanf("%.2f %.2f", &salario, &kw);
+   r = (salario*(7/1000));
+   rr = (salario*(7/1000)*kw);
+   rrr = (salario*(7/1000)*kw*(9/10));    
+   printf("Custo por kw: R$%.2f\n", r);
+   printf("Custo do consumo: R$%.2f\n", rr);
+   printf("Custo com desconto: R$%.2f\n", rrr);
+   
   return 0;
 }
