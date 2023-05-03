@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main () {
+  int consumo, distancia, litros, res;
+  scanf("%d %d %d", &consumo, &distancia, &litros);
+  res = (distancia/consumo);
+  printf("%d", res);
+
+
+return 0;
+}
