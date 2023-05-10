@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main (){
+  int valor;
+  printf("digite meu numero favorito\n");
+  scanf("%d", &valor);
+  if (valor == 7){
+    printf("te amo assuma o tamanho das suas tetas\n");
+  }
+    else {
+    printf("valor invalido\n");
+    }
+
+  return 0;
+ }
