@@ -7,7 +7,7 @@ int main () {
   scanf("%f", d);
   scanf("%f", e);
   scanf("%f", f);
-  c = a*x + b*y;
+  c = a*x + b*y; // x = a, b, c, d, e, f ; y = a, b, c, d, e, f 
   f = d*x + e*y;
   printf("O VALOR DE X E = %.2f\n", x);
   printf("O VALOR DE Y E = %.2f\n", y);
