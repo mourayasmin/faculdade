@@ -1,20 +1,33 @@
 #include <stdio.h>
 int main () {
   int conta;
-  float consumo, valor;
+  double consumo, valor;
   char tipo, R, I, C;
   scanf("%d", &conta);
   scanf("%f", &consumo);
   scanf("%c", &tipo);
-  if (conta == 39393939) {
-      consumo = (500 + 0.25*(consumo-80));
-      printf("CONTA = 39393939\n");
-      printf("VALOR DA CONTA = %.2f\n", consumo);
-  }
-  else { (conta == 888);
-    consumo = (800 + 0.04*(consumo-100));
-    printf("CONTA = 888\n");
-    printf("VALOR DA CONTA = %.2f\n", consumo);
-  }
+    if (tipo == 'R'){
+    valor = (5 + 0.05*consumo);
+    }
+    if (tipo == 'C'){
+      if (consumo > 80) {
+        valor = (500 + 0.25*(consumo - 80));
+       }
+      else {
+      valor = 500;
+      }
+      }
+    if (tipo == 'I'){
+      if (consumo > 100){
+        valor = (800 + 0.04*(consumo - 100));
+      }
+      else {
+        valor = 800;
+        }
+    }
+  printf("CONTA = %d", conta);
+  printf("VALOR DA CONTA = %.2f", valor);
+      
   return 0;
   }
+
