@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main () {
   int conta;
-  double consumo, valor;
+  float consumo, valor;
   char tipo, R, I, C;
   scanf("%d", &conta);
   scanf("%f", &consumo);
