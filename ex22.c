@@ -3,9 +3,7 @@ int main () {
   int conta;
   float consumo, valor;
   char tipo, R, I, C;
-  scanf("%d", &conta);
-  scanf("%f", &consumo);
-  scanf("%c", &tipo);
+  scanf("%d %f %c", &conta, &consumo, &tipo);
     if (tipo == 'R'){
     valor = (5 + 0.05*consumo);
     }
