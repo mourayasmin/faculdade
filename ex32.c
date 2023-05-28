@@ -9,15 +9,15 @@ if ((n1 > n2)&&(n1 > n3)&&(n1 > n4)); {
     resultado = n2 + n3 + n4;
     printf("%d", resultado);
 }
-if ((n2 > n1)&&(n2 > n3)&&(n2 > n4)) {
+else if ((n2 > n1)&&(n2 > n3)&&(n2 > n4)) {
     resultado = n1 + n3 + n4;
     printf("%d", resultado);
 }
-((n3 > n1)&&(n3 > n2)&&(n3 > n4)) {
+else if ((n3 > n1)&&(n3 > n2)&&(n3 > n4)) {
     resultado = n1 + n2 + n4;
     printf("%d", resultado);
 }
-if ((n4 > n1)&&(n4 > n2)&&(n4 > n3)) {
+else if ((n4 > n1)&&(n4 > n2)&&(n4 > n3)) {
     resultado = n1 + n2 + n3;
     printf("%d", resultado);
 }
