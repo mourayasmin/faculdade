@@ -44,7 +44,7 @@ printf("%d %d %d\n", x, y, z);
    }  
  }
   // y x z 
- if ( y > x && x > z)  {
+ else if ( y > x && x > z)  {
    if (nx == 'C' && ny == 'B' && nz == 'A') {
      printf("%d %d %d\n", y, x, z);
    }
@@ -63,14 +63,69 @@ printf("%d %d %d\n", x, y, z);
    else if (nx == 'B' && ny == 'C' && nz == 'A') {
      printf("%d %d %d\n", x, y, z);
    }
- }
+ } 
   
  // y z x
- if (y > z && z > x)    
+ else if (y > z && z > x) {
+   if (nx == 'C' && ny == 'B' && nz == 'A') {
+     printf("%d %d %d\n",  y, z, x);
+   }
+   else if (nx == 'C' && ny == 'A' && nz == 'B') {
+     printf("%d %d %d\n", y, x, z);
+   }
+   else if (nx == 'A' && ny == 'B' && nz == 'C') {
+     printf("%d %d %d\n", x, z, y);
+   }
+   else if (nx == 'A' && ny == 'C' && nz == 'B') {
+     printf("%d %d %d\n", x, y, z);
+   }
+   else if (nx == 'B' && ny == 'A' && nz == 'C'( {
+     printf("%d %d %d\n", z, x, y);
+   }
+   else if (nx == 'B' && ny == 'C' && nz == 'A') {
+     printf("%d %d %d\n", z, y, x);
+   }
  // z y x
- if (z > y && y > x)    
+ else if (z > y && y > x) {
+   if (nx == 'C' && ny == 'B' && nz == 'A') {
+     printf("%d %d %d\n", z, y, x);
+   }
+   else if (nx == 'C' && ny == 'A' && nz == 'B') {
+printf("%d %d %d\n", z, x, y);
+   }
+   else if (nx == 'A' && ny == 'B' && nz == 'C') {
+     printf("%d %d %d\n", x, y, z);
+   }
+   else if (nx == 'A' && ny == 'C' && nz == 'B') {
+     printf("%d %d %d\n", x, z, y);
+   }
+   else if (nx == 'B' && ny == 'A' && nz == 'C') {
+     printf("%d %d %d\n", y, x, z);
+   }
+   else if (nx == 'B' && ny == 'C' && nz == 'A') {
+     printf("%d %d %d\n", y, z, x);
+   }
+ }                                           
  // z x y 
- if (z > x && x > y)
+else if (z > x && x > y) {
+  if (nx == 'C' && ny == 'B' && nz == 'A') {
+    printf("%d %d %d\n", z, x, y);
+  }
+  else if (nx == 'C' && ny == 'A' && nz == 'B') {
+    printf("%d %d %d\n", z, y, x);
+  }
+  else if (nx == 'A' && ny == 'B' && nz == 'C') {
+    printf("%d %d %d\n", y, x, z);
+  }
+  else if (nx == 'A' && ny == 'C' && nz == 'B') {
+    printf("%d %d %d\n", y, z, x);
+  }
+  else if (nx == 'B' && ny == 'A' && nz == 'C') {
+    printf("%d %d %d\n", x, y, z);
+  }
+  else if (nx == 'B' && ny == 'C' && nz == 'A') {
+    printf("%d %d %d\n", x, z, y);
+  }
   
 return 0; 
 }
