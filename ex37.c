@@ -4,6 +4,7 @@ int x, y, z;
 char A, B, C, nx, ny, nz;
 scanf("%d %d %d\n", &x, &y, &z);
 scanf("%c%c%c", &nx, &ny, &nz); 
+  // x y z
   if (x > y && y > z) {
   if (nx == 'C' && ny == 'B' && nz == 'C'){
     printf("%d %d %d\n", x, y, z);
@@ -11,34 +12,25 @@ scanf("%c%c%c", &nx, &ny, &nz);
   else if (nx == 'C' && ny == 'A' && nz == 'B') {
 printf("%d %d %d\n", x, z, y);
   }
-  else if (nx == 'A' && ny == 'B' && nx == 'C') {
+  else if (nz == 'A' && ny == 'B' && nx == 'C') {
 printf("%d %d %d\n", z, y, x);
   }
-else if 
-
-    
-
-
-    
+else if (nx == 'A' && ny == 'C' && nz == 'B') {
+printf("%d %d %d\n", z, x, y); 
+  }
+else if (nx == 'B' && ny == 'A' && nz == 'C') {
+  printf("%d %d %d\n", y, z, x);
+} 
+  // x z y   
+ if ( x > z && z > y) 
+  // y x z 
+ if ( y > z && x > z)    
+ // y z x
+ if (y > z && z > x)    
+ // z y x
+ if (z > y && y > x)    
+ // z x y 
+ if (z > x && x > y)
   
-  // x - y - z ; nx == c , ny == b , nz == a
-  
-  
-  // x - z - y
-  
-  // y - x - z 
-  
-  // y - z - x 
-  
-  // z - y - x 
-  
-  // z - x - y 
-
-
-
-
-
-
-
 return 0; 
 }
