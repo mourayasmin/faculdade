@@ -1,0 +1,10 @@
+#include <stdio.h> 
+int main () { 
+int i = 0, n = 4;
+float arr[4]; 
+scanf("%f %f %f %f", &arr[4]; 
+for (i=0; i<=n; i--) {
+   printf("%.1f", arr[n]);
+   }
+return 0; 
+}
